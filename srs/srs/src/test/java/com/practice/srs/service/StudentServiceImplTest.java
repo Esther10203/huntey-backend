@@ -8,7 +8,10 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
+import java.util.*;
+
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
 
 class StudentServiceImplTest {
 
@@ -17,16 +20,19 @@ class StudentServiceImplTest {
     StudentRepository studentRepository;
 
     @InjectMocks
-    StudentService studentService;
+    StudentServiceImpl studentServiceUnderTest;
 
     @BeforeEach
     public void setup(){
-        student = new Student("Chance", "jinezachance@gmail.com");
+        studentServiceUnderTest = new StudentServiceImpl();
     }
 
     @Test
     public void shouldCheckIfStudentIsSaved(){
-//        when(studentService.saveStudent(student));
+        List<Student> studentList = Arrays.asList(
+                new Student("Chance", "jinezachance@gmail.com")
+        );
+        when(studentRepository.findAll()).thenReturn(studentList);
     }
 
 
