@@ -1,6 +1,6 @@
-package com.practice.srs.model;
+package com.huntey.surveyManagementSystem.model;
 
-import com.practice.srs.roles.Role;
+import com.huntey.surveyManagementSystem.roles.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

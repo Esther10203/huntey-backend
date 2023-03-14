@@ -1,6 +1,6 @@
-package com.practice.srs.config;
+package com.huntey.surveyManagementSystem.config;
 
-import com.practice.srs.repository.UserRepository;
+import com.huntey.surveyManagementSystem.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

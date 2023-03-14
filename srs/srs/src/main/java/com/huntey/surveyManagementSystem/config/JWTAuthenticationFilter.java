@@ -1,6 +1,6 @@
-package com.practice.srs.config;
+package com.huntey.surveyManagementSystem.config;
 
-import com.practice.srs.utils.JWTService;
+import com.huntey.surveyManagementSystem.utils.JWTService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

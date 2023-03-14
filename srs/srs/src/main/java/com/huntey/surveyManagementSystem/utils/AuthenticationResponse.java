@@ -1,4 +1,4 @@
-package com.practice.srs.utils;
+package com.huntey.surveyManagementSystem.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @NoArgsConstructor
-public class AuthenticationRequest {
-    private String email;
-    private String password;
+public class AuthenticationResponse {
+    private String token;
 }

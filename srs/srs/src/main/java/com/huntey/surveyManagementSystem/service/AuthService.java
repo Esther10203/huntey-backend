@@ -1,12 +1,12 @@
-package com.practice.srs.service;
+package com.huntey.surveyManagementSystem.service;
 
-import com.practice.srs.model.User;
-import com.practice.srs.repository.UserRepository;
-import com.practice.srs.roles.Role;
-import com.practice.srs.utils.AuthenticationRequest;
-import com.practice.srs.utils.AuthenticationResponse;
-import com.practice.srs.utils.JWTService;
-import com.practice.srs.utils.RegisterRequest;
+import com.huntey.surveyManagementSystem.model.User;
+import com.huntey.surveyManagementSystem.repository.UserRepository;
+import com.huntey.surveyManagementSystem.roles.Role;
+import com.huntey.surveyManagementSystem.utils.AuthenticationRequest;
+import com.huntey.surveyManagementSystem.utils.AuthenticationResponse;
+import com.huntey.surveyManagementSystem.utils.JWTService;
+import com.huntey.surveyManagementSystem.utils.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

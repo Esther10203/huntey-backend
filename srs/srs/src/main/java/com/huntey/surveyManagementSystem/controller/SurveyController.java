@@ -1,7 +1,5 @@
-package com.practice.srs.controller;
+package com.huntey.surveyManagementSystem.controller;
 
-import com.practice.srs.model.Student;
-import com.practice.srs.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +8,7 @@ import java.util.List;
 @RestController
 @CrossOrigin
 @RequestMapping("/student")
-public class StudentController {
+public class SurveyController {
     @Autowired
     private StudentService studentService;
 

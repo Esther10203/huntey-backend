@@ -1,9 +1,9 @@
-package com.practice.srs.controller;
+package com.huntey.surveyManagementSystem.controller;
 
-import com.practice.srs.service.AuthService;
-import com.practice.srs.utils.AuthenticationRequest;
-import com.practice.srs.utils.AuthenticationResponse;
-import com.practice.srs.utils.RegisterRequest;
+import com.huntey.surveyManagementSystem.utils.AuthenticationRequest;
+import com.huntey.surveyManagementSystem.utils.AuthenticationResponse;
+import com.huntey.surveyManagementSystem.utils.RegisterRequest;
+import com.huntey.surveyManagementSystem.service.AuthService;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

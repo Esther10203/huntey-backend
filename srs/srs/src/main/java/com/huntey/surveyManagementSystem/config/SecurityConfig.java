@@ -1,4 +1,4 @@
-package com.practice.srs.config;
+package com.huntey.surveyManagementSystem.config;
 
 import jakarta.servlet.Filter;
 import lombok.RequiredArgsConstructor;

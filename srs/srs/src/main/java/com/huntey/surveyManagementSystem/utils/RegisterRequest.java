@@ -1,4 +1,4 @@
-package com.practice.srs.utils;
+package com.huntey.surveyManagementSystem.utils;
 
 import lombok.Data;
 

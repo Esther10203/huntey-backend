@@ -1,6 +1,6 @@
-package com.practice.srs.repository;
+package com.huntey.surveyManagementSystem.repository;
 
-import com.practice.srs.model.User;
+import com.huntey.surveyManagementSystem.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

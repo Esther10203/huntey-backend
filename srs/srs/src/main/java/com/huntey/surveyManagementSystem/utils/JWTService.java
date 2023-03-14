@@ -1,4 +1,4 @@
-package com.practice.srs.utils;
+package com.huntey.surveyManagementSystem.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
